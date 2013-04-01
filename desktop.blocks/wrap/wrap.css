@@ -1,0 +1,11 @@
+.wrap:hover .album-image-wrap
+{
+	bottom: 0;
+}
+.wrap
+{
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	height: 160px;
+}

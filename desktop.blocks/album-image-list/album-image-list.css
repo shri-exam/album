@@ -1,0 +1,24 @@
+.album-image-list
+{
+	height: 135px;	
+
+	padding-top: 12px;
+	overflow: hidden;
+}
+.album-image-list__item_type_current
+{
+	box-shadow: 0 0 10px 5px rgba(100, 200, 255, 1.0);
+	cursor: default;
+}
+.album-image-list__item
+{
+	display: inline-block;
+	overflow: hidden;
+	height: 120px;
+	width: 120px;
+	cursor: pointer;
+	vertical-align: text-bottom;
+	text-align: center;
+
+	margin: 0 10px;
+}

@@ -1,0 +1,7 @@
+.album .album__slide_type_current
+{	max-height: 100%;
+	max-width: 100%;
+	opacity: 1 !important;
+	display: block ;
+	margin-top: 15px;
+}

@@ -1,0 +1,15 @@
+.album-image-wrap
+{
+	overflow-x: scroll;
+	overflow-y: hidden;
+
+	background: rgba(255, 255, 255, 0.1);
+
+	position: relative;
+	bottom: -220px;
+
+	height: 198px;	
+	-webkit-transition-property: bottom;
+	-webkit-transition-duration: 0.5s;
+
+}

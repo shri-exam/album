@@ -1,0 +1,5 @@
+.album-image-list__item_type_current
+{
+	box-shadow: 0 0 10px 5px rgba(100, 200, 255, 1.0);
+	cursor: default;
+}

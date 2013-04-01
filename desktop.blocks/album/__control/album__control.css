@@ -1,0 +1,53 @@
+html:hover .album__control{
+	opacity: 1;
+}
+.album__control
+{
+	background: rgba(0,0,0,0.3);
+	
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+
+	position: absolute;
+	top: 45%;
+
+	transition: opacity 0.5s;	
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+}
+
+
+.album__control_type_prev:hover
+{
+	border-color: transparent  rgba(255,255,255,0.6) transparent transparent;
+}
+.album__control_type_prev
+{
+	left: 10px;
+
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 50px 100px 50px 0;
+	border-color: transparent  rgba(255,255,255,0.3) transparent transparent;
+
+}
+.album .album__control_type_next
+{
+	right: 10px;
+
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 50px 0 50px 100px;
+	border-color: transparent transparent transparent rgba(255,255,255,0.3);
+}
+.album__control_type_next:hover
+{
+	border-color: transparent transparent transparent rgba(255,255,255,0.6);
+}
+.album__control_show_yes
+{
+	display: block;	
+}

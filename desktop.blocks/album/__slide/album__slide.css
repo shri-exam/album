@@ -1,0 +1,7 @@
+.album__slide
+{
+	margin: 15px 0;
+	opacity: 0;
+	position: absolute;	
+	background: url('loader.gif') 50% no-repeat;
+}

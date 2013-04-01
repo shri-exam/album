@@ -1,0 +1,3 @@
+block album, elem control {
+    tag: 'div'  
+}

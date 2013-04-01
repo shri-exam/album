@@ -1,0 +1,25 @@
+.album
+{
+	background: #000;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: verdana,sans-serif;
+}
+.album__slide_type_current
+{	max-height: 100%;
+	max-width: 100%;
+	opacity: 1 !important;
+	display: block !important ;
+	margin-top: 15px;
+}
+.album__slide
+{
+	margin: 15px 0;
+	opacity: 0;
+	position: absolute;		
+}
+.image_type_mini
+{
+	width: 195px;	
+}

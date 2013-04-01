@@ -1,0 +1,20 @@
+.album__loader
+{
+	opacity: 0;
+	position: absolute;	
+	top: 40%;
+	left: 50%;
+	margin-left: -101px;
+	z-index: -1;
+	font-size: 40px;
+	color: #fff;
+
+	transition: opacity 0.5s;	
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+}
+.album__loader_loading_yes
+{
+	z-index: 1;
+	opacity: 1;
+}

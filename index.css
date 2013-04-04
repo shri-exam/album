@@ -1,0 +1,166 @@
+/* ../../desktop.blocks/album/album.css begin */
+.album
+{
+	background: #000;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: verdana,sans-serif;
+}
+.album__slide_type_current
+{	max-height: 100%;
+	max-width: 100%;
+	opacity: 1 !important;
+	display: block !important ;
+	margin-top: 15px;
+}
+.album__slide
+{
+	margin: 15px 0;
+	opacity: 0;
+	position: absolute;		
+}
+.image_type_mini
+{
+	width: 195px;	
+}
+/* ../../desktop.blocks/album/album.css end */
+
+/* ../../desktop.blocks/album/__loader/album__loader.css begin */
+.album__loader
+{
+	opacity: 0;
+	position: absolute;	
+	top: 40%;
+	left: 50%;
+	margin-left: -101px;
+	z-index: -1;
+	font-size: 40px;
+	color: #fff;
+
+	transition: opacity 0.5s;	
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+}
+.album__loader_loading_yes
+{
+	z-index: 1;
+	opacity: 1;
+}
+/* ../../desktop.blocks/album/__loader/album__loader.css end */
+
+/* ../../desktop.blocks/album/__control/album__control.css begin */
+html:hover .album__control{
+	opacity: 1;
+}
+.album__control
+{
+	background: rgba(0,0,0,0.3);
+	
+	opacity: 0;
+	display: none;
+	cursor: pointer;
+
+	position: absolute;
+	top: 45%;
+
+	transition: opacity 0.5s;	
+	-webkit-transition: opacity 0.5s; /* Safari and Chrome */
+	-o-transition: opacity 0.5s; /* Opera */
+}
+
+
+.album__control_type_prev:hover
+{
+	border-color: transparent  rgba(255,255,255,0.6) transparent transparent;
+}
+.album__control_type_prev
+{
+	left: 10px;
+
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 50px 100px 50px 0;
+	border-color: transparent  rgba(255,255,255,0.3) transparent transparent;
+
+}
+.album .album__control_type_next
+{
+	right: 10px;
+
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 50px 0 50px 100px;
+	border-color: transparent transparent transparent rgba(255,255,255,0.3);
+}
+.album__control_type_next:hover
+{
+	border-color: transparent transparent transparent rgba(255,255,255,0.6);
+}
+.album__control_show_yes
+{
+	display: block;	
+}
+/* ../../desktop.blocks/album/__control/album__control.css end */
+
+/* ../../desktop.blocks/wrap/wrap.css begin */
+.wrap:hover .album-image-wrap
+{
+	bottom: 0;
+}
+.wrap
+{
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	height: 160px;
+}
+/* ../../desktop.blocks/wrap/wrap.css end */
+
+/* ../../desktop.blocks/album-image-wrap/album-image-wrap.css begin */
+.album-image-wrap
+{
+	overflow-x: scroll;
+	overflow-y: hidden;
+
+	background: rgba(255, 255, 255, 0.1);
+
+	position: relative;
+	bottom: -220px;
+
+	height: 198px;	
+	-webkit-transition-property: bottom;
+	-webkit-transition-duration: 0.5s;
+
+}
+/* ../../desktop.blocks/album-image-wrap/album-image-wrap.css end */
+
+/* ../../desktop.blocks/album-image-list/album-image-list.css begin */
+.album-image-list
+{
+	height: 135px;	
+
+	padding-top: 12px;
+	overflow: hidden;
+}
+.album-image-list__item_type_current
+{
+	box-shadow: 0 0 10px 5px rgba(100, 200, 255, 1.0);
+	cursor: default;
+}
+.album-image-list__item
+{
+	display: inline-block;
+	overflow: hidden;
+	height: 120px;
+	width: 120px;
+	cursor: pointer;
+	vertical-align: text-bottom;
+	text-align: center;
+
+	margin: 0 10px;
+}
+/* ../../desktop.blocks/album-image-list/album-image-list.css end */
+

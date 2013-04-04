@@ -1,3 +1,6 @@
+http://shri-exam.github.com/album
+========
+
 # Minimal setup to start a new [BEM](http://bem.info) project
 
 This repository contains the *minimal* configuration-files and folders you will need to create a [BEM](http://bem.info) project from *scratch*.
